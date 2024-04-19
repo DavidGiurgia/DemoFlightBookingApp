@@ -1,0 +1,6 @@
+C:\Users\giurg\OneDrive\Desktop\FlightEase\Flight.Model\bin\Debug\Flight.Model.dll
+C:\Users\giurg\OneDrive\Desktop\FlightEase\Flight.Model\bin\Debug\Flight.Model.pdb
+C:\Users\giurg\OneDrive\Desktop\FlightEase\Flight.Model\obj\Debug\Flight.Model.csproj.AssemblyReference.cache
+C:\Users\giurg\OneDrive\Desktop\FlightEase\Flight.Model\obj\Debug\Flight.Model.csproj.CoreCompileInputs.cache
+C:\Users\giurg\OneDrive\Desktop\FlightEase\Flight.Model\obj\Debug\Flight.Model.dll
+C:\Users\giurg\OneDrive\Desktop\FlightEase\Flight.Model\obj\Debug\Flight.Model.pdb

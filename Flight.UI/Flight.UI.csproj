@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4D81EF7D-E984-48D0-9C9A-973D8D11E98E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Flight.UI</RootNamespace>
+    <AssemblyName>Flight.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddFlightPanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddFlightPanelControl.Designer.cs">
+      <DependentUpon>AddFlightPanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddFlightState.cs" />
+    <Compile Include="BuyFlightPanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BuyFlightPanelControl.Designer.cs">
+      <DependentUpon>BuyFlightPanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuyFlightState.cs" />
+    <Compile Include="DashboardPanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DashboardPanelControl.Designer.cs">
+      <DependentUpon>DashboardPanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardState.cs" />
+    <Compile Include="EditFlightPanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditFlightPanelControl.Designer.cs">
+      <DependentUpon>EditFlightPanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditFlightState.cs" />
+    <Compile Include="HelpPanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HelpPanelControl.Designer.cs">
+      <DependentUpon>HelpPanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpState.cs" />
+    <Compile Include="LoginPanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LoginPanelControl.Designer.cs">
+      <DependentUpon>LoginPanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginState.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterPanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RegisterPanelControl.Designer.cs">
+      <DependentUpon>RegisterPanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterState.cs" />
+    <Compile Include="RemoveFlightPanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RemoveFlightPanelControl.Designer.cs">
+      <DependentUpon>RemoveFlightPanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveFLightState.cs" />
+    <Compile Include="ReserveSeatPanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReserveSeatPanelControl.Designer.cs">
+      <DependentUpon>ReserveSeatPanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReserveSeatState.cs" />
+    <Compile Include="SearchResultControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SearchResultControl.Designer.cs">
+      <DependentUpon>SearchResultControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddFlightPanelControl.resx">
+      <DependentUpon>AddFlightPanelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuyFlightPanelControl.resx">
+      <DependentUpon>BuyFlightPanelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardPanelControl.resx">
+      <DependentUpon>DashboardPanelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditFlightPanelControl.resx">
+      <DependentUpon>EditFlightPanelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpPanelControl.resx">
+      <DependentUpon>HelpPanelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPanelControl.resx">
+      <DependentUpon>LoginPanelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RegisterPanelControl.resx">
+      <DependentUpon>RegisterPanelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveFlightPanelControl.resx">
+      <DependentUpon>RemoveFlightPanelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReserveSeatPanelControl.resx">
+      <DependentUpon>ReserveSeatPanelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchResultControl.resx">
+      <DependentUpon>SearchResultControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Flight.DataAccess\Flight.DataAccess.csproj">
+      <Project>{81331cd2-5fd7-46ce-bd46-29cfa7ed3cce}</Project>
+      <Name>Flight.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Flight.Model\Flight.Model.csproj">
+      <Project>{0424d964-1e4f-4499-baf0-fbd1934b0880}</Project>
+      <Name>Flight.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wizz_Air_logo_2015.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\catania-right.tmb-width1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-remove-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-edit-24.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

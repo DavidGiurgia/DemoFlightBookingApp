@@ -1,0 +1,9 @@
+C:\Users\giurg\OneDrive\Desktop\FlightEase\Flight.DataAccess\bin\Debug\Flight.DataAccess.dll
+C:\Users\giurg\OneDrive\Desktop\FlightEase\Flight.DataAccess\bin\Debug\Flight.DataAccess.pdb
+C:\Users\giurg\OneDrive\Desktop\FlightEase\Flight.DataAccess\bin\Debug\Flight.Model.dll
+C:\Users\giurg\OneDrive\Desktop\FlightEase\Flight.DataAccess\bin\Debug\Flight.Model.pdb
+C:\Users\giurg\OneDrive\Desktop\FlightEase\Flight.DataAccess\obj\Debug\Flight.DataAccess.csproj.AssemblyReference.cache
+C:\Users\giurg\OneDrive\Desktop\FlightEase\Flight.DataAccess\obj\Debug\Flight.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\giurg\OneDrive\Desktop\FlightEase\Flight.DataAccess\obj\Debug\Flight.DataAccess.csproj.CopyComplete
+C:\Users\giurg\OneDrive\Desktop\FlightEase\Flight.DataAccess\obj\Debug\Flight.DataAccess.dll
+C:\Users\giurg\OneDrive\Desktop\FlightEase\Flight.DataAccess\obj\Debug\Flight.DataAccess.pdb
